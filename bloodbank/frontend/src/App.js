@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Appbar from './components/Appbar';
 import { Route, Routes } from 'react-router-dom';
@@ -9,7 +9,7 @@ import Home from './components/Home';
 import Homee from './components/Homee';
 import Signup from './components/Signup';
 import View from './components/View';
-import Admin from './components/Admin';
+
 import Admindonor from './components/Admindonor';
 
 import Admindonorf from './components/Admindonorf';
@@ -35,7 +35,7 @@ function App() {
   <Route path='/dash' element={<Home/>}/>
   <Route path='/' element={<Homee/>}/>
   <Route path='/donorview' element={<View/>}/>
-  <Route path='/admin' element={<Admin/>}/>
+  
   <Route path='/admindonor' element={<Admindonor/>}/>
   <Route path='/admindonorform' element={<Admindonorf/>}/>
 
